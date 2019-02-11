@@ -1,0 +1,70 @@
+.c-meal-options {
+	width: 90vw;
+	max-width: 650px;
+	min-height: 30vh;
+}
+
+.c-meal-option {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background: #fff;
+	box-shadow: var(--shadow-sm);
+	padding: var(--spacing-2) var(--spacing-4);
+	font-size: var(--fs-3);
+	margin-bottom: var(--spacing-2);
+	border-left: 4px solid var(--primary-light-1);
+}
+
+.c-meal-option__image {
+	flex: 1;
+	width: 100%;
+	height: 50px;
+	background: #ddd;
+}
+
+.c-meal-option__info {
+	flex: 3;
+	padding-left: var(--spacing-4);
+	font-weight: bold;
+}
+
+.c-meal-option__actions {
+	flex: 2;
+	text-align: right;
+}
+
+.c-meal-option__actions a {
+	text-decoration: none;
+	/*color: var(--primary);*/
+	padding: var(--spacing-2) var(--spacing-3);
+}
+
+.c-meal-option__edit {
+	color: var(--primary-dark-2);
+	background: var(--primary-light-1);
+	border-radius: var(--border-radius-lg);
+}
+
+.c-meal-option__delete {
+	margin-left: var(--spacing-2);
+	color: var(--grey);
+}
+
+
+
+
+.c-add-meal {
+	width: 90vw;
+	max-width: 650px;
+	min-height: 50vh;
+	/*border-radius: var(--border-radius-sm);*/
+	padding: var(--spacing-4) var(--spacing-3);
+	background: var(--light-3);
+	box-shadow: var(--shadow-sm);
+}
+
+.c-add-meal .c-button {
+	color: var(--light-3);
+	background: var(--primary);
+}
