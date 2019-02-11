@@ -1,0 +1,70 @@
+.c-hero {
+	min-height: 80vh;
+	display: flex;
+	align-items: center;
+}
+
+.c-hero > .l-container {
+	display: flex;
+}
+
+.c-hero__pitch-headline {
+	margin-top: -50px;
+	color: var(--dark-3);
+	letter-spacing: 0.05rem;
+	border-left: 4px solid var(--primary-light-1);
+	padding-left: 40px;
+}
+
+.c-hero__pitch-small {
+	margin: var(--spacing-5) 0;
+	color: var(--grey);
+	width: 90vw;
+}
+
+@media (min-width: 600px) {
+	.c-hero__pitch-small {
+		width: 500px;
+		line-height: 1.5rem;
+	}
+}
+
+.c-hero .c-button {
+	background: var(--primary);
+	color: var(--light-3);
+}
+
+@media (max-width: 467px) {
+	.c-button-group {
+		flex-direction: column;
+	}
+
+	.c-hero .c-button {
+		margin-bottom: var(--spacing-2);
+	}
+}
+
+.c-hero__left {
+	flex: 4;
+}
+
+.c-hero__right {
+	flex: 3;
+}
+
+.c-hero__right .fa:first-child {
+	transform: rotate(-40deg) translate(20%, 10%);
+}
+
+.c-hero__right .fa {
+	margin-top: -40px;
+	font-size: 8rem;
+	color: var(--primary);
+}
+
+
+@media (max-width: 991px) {
+	.c-hero__right {
+		display: none;
+	}
+}
