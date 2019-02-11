@@ -1,0 +1,86 @@
+.c-auth
+{
+    width: 90vw;
+    max-width: 450px;
+    margin: var(--spacing-5) auto;
+    padding: var(--spacing-6) var(--spacing-5);
+
+    border-radius: var(--border-radius-sm);
+    background: var(--light-3);
+    box-shadow: var(--shadow-md);
+}
+
+.c-auth__header
+{
+    margin-bottom: var(--spacing-8);
+
+    text-align: center;
+
+    color: var(--dark-2);
+}
+
+.c-auth .c-form-group__label
+{
+    color: var(--dark-2);
+}
+
+.c-auth .c-input-group
+{
+    background: #fff;
+}
+
+.c-auth .c-input-group__icon
+{
+    color: var(--dark-2);
+}
+
+.c-auth .c-form-group__input
+{
+    letter-spacing: .05rem;
+
+    color: var(--dark-2);
+    background: transparent;
+}
+
+.c-auth .c-form-group__input::placeholder
+{
+    color: var(--grey);
+}
+
+.c-auth .c-form-group__input:focus
+{
+    background: hsl(200, 4%, 95%);
+    box-shadow: inset var(--shadow-sm);
+}
+
+
+
+.c-auth .c-button
+{
+    width: 100%;
+    margin-top: var(--spacing-3);
+
+    color: var(--light-3);
+    background: var(--primary);
+}
+
+.c-auth__alt
+{
+    padding: var(--spacing-4) 0;
+
+    text-align: center;
+
+    color: var(--dark-2);
+}
+
+.c-auth__alt-link
+{
+    text-decoration: none;
+
+    color: var(--primary-dark-1);
+}
+
+.c-auth__alt-link:hover
+{
+    text-decoration: underline;
+}

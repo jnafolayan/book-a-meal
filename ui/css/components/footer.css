@@ -1,0 +1,19 @@
+.c-footer {
+	background: var(--dark-1);
+	padding: var(--spacing-4) 0;
+	text-align: center;
+	color: var(--light-3);
+	font-size: var(--fs-3);
+
+	box-shadow: inset 0 2px 4px hsla(0, 3%, 10%, 0.15);
+}
+
+.c-footer__social {
+	padding: var(--spacing-3) 0;
+}
+
+.c-footer__social-link {
+	color: var(--light-2);
+	margin: 0 var(--spacing-1);
+	text-decoration: none;
+}

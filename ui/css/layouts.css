@@ -1,0 +1,56 @@
+.l-container {
+	width: 100%;
+	margin: 0 auto;
+	padding: var(--spacing-3) var(--spacing-4);
+	position: relative;
+}
+
+@media screen and (min-width: 768px) {
+	.l-container {
+		width: 90vw;
+	}
+}
+
+@media screen and (min-width: 991px) {
+	.l-container {
+		width: 85vw;
+		max-width: 1280px;
+	}
+}
+
+.l-container--fluid {
+	width: 100%;
+	padding: var(--spacing-4) var(--spacing-3);
+}
+
+
+/* Section */
+.l-section {
+	padding: var(--spacing-4) var(--spacing-2);
+}
+
+.l-section__header {
+	color: var(--dark-3);
+	margin-bottom: var(--spacing-6);
+}
+
+.l-section__header:after {
+	content: "";
+	display: block;
+	width: 100px;
+	height: 4px;
+	background: var(--primary);
+	margin-top: 5px;
+}
+
+.l-section__body {
+	padding: var(--spacing-4) 0;
+}
+
+
+/* Home */
+.l-home {
+	position: relative;
+	background-image: url("../assets/images/leaves-pattern.png");
+	background-repeat: repeat;
+}
