@@ -1,0 +1,148 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Cart | Book-A-Meal</title>
+        <meta name="description" content="Food ordering website submitted to the ALCwithforloop program">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="assets/icons/font-awesome/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/colors.css">
+        <link rel="stylesheet" href="css/layouts.css">
+        <link rel="stylesheet" href="css/components/navbar.css">
+        <link rel="stylesheet" href="css/components/footer.css">
+        <link rel="stylesheet" href="css/components/button.css">
+        <link rel="stylesheet" href="css/components/cart.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+	
+		<div class="light-3 l-home">
+			<nav class="c-navbar">
+				<div class="l-container">
+					<div class="c-navbar__header">
+						<a class="c-navbar__brand" href="index.html">
+							BOOK-A-MEAL
+						</a>
+
+						<button class="c-navbar__toggler">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				
+					<div class="c-navbar__collapse">
+						<ul class="c-navbar__links">
+							<li><a class="c-navbar__link" href="index.html#about">About</a></li>
+							<li><a class="c-navbar__link" href="#about">Become a Caterer</a></li>
+							<li><a class="c-navbar__link" href="menu.html">Menu</a></li>
+						</ul>
+
+						<ul class="c-navbar__links c-navbar__links--right">
+							<li><a class="c-navbar__link c-navbar__link--right" href="signin.html">Sign In</a></li>
+							<li><a class="c-navbar__link c-navbar__link--right c-navbar__link--callout" href="signup.html">Sign Up</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			
+			<section class="l-section">
+				<div class="l-container">
+					<h3 class="l-section__header">
+						Your cart
+					</h3>
+					<div class="c-cart">
+						<ul class="c-cart__list">
+							<li class="c-cart__item">
+								<span class="c-cart__item-name">Beef with fries</span>
+								<span class="c-cart__item-qty">
+									<span class="c-cart__qty-label">Qty:</span>
+									<input type="number" name="mealQty" value="1">
+								</span>
+								<span class="c-cart__item-price">$50</span>
+								<span class="c-cart__item-del"><i class="fa fa-close"></i></span>
+							</li>
+							<li class="c-cart__item">
+								<span class="c-cart__item-name">Beef with rice</span>
+								<span class="c-cart__item-qty">
+									<span class="c-cart__qty-label">Qty:</span>
+									<input type="number" name="mealQty" value="1">
+								</span>
+								<span class="c-cart__item-price">$80</span>
+								<span class="c-cart__item-del"><i class="fa fa-close"></i></span>
+							</li>
+							<li class="c-cart__item">
+								<span class="c-cart__item-name">Spaghetti with tacos</span>
+								<span class="c-cart__item-qty">
+									<span class="c-cart__qty-label">Qty:</span>
+									<input type="number" name="mealQty" value="2">
+								</span>
+								<span class="c-cart__item-price">$150</span>
+								<span class="c-cart__item-del"><i class="fa fa-close"></i></span>
+							</li>
+							<li class="c-cart__item">
+								<span class="c-cart__item-name">Jollof rice</span>
+								<span class="c-cart__item-qty">
+									<span class="c-cart__qty-label">Qty:</span>
+									<input type="number" name="mealQty" value="1">
+								</span>
+								<span class="c-cart__item-price">$80</span>
+								<span class="c-cart__item-del"><i class="fa fa-close"></i></span>
+							</li>
+							<li class="c-cart__item">
+								<span class="c-cart__item-name">Small chops</span>
+								<span class="c-cart__item-qty">
+									<span class="c-cart__qty-label">Qty:</span>
+									<input type="number" name="mealQty" value="2">
+								</span>
+								<span class="c-cart__item-price">$100</span>
+								<span class="c-cart__item-del"><i class="fa fa-close"></i></span>
+							</li>
+							<li class="c-cart__item">
+								<span class="c-cart__item-name">French fries</span>
+								<span class="c-cart__item-qty">
+									<span class="c-cart__qty-label">Qty:</span>
+									<input type="number" name="mealQty" value="4">
+								</span>
+								<span class="c-cart__item-price">$50</span>
+								<span class="c-cart__item-del"><i class="fa fa-close"></i></span>
+							</li>
+						</ul>
+						<div class="c-cart__total">
+							Total: <span class="c-cart__total-value">$510</span>
+						</div>
+						<div class="c-button-group">
+							<button class="c-button c-button--lg" type="button">Place Order</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<footer class="c-footer">
+				<div class="l-container">
+					<p>
+						&copy; 2019 John Afolayan
+					</p>
+					<div class="c-footer__social">
+						<a class="c-footer__social-link" href="https://github.com/jnafolayan">
+							<i class="fa fa-2x fa-github"></i>
+						</a>
+						<a class="c-footer__social-link" href="https://twitter.com/jnafolayan">
+							<i class="fa fa-2x fa-twitter"></i>
+						</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+	
+		<script src="js/libs/dom.js"></script>
+		<script src="js/store.js"></script>
+		<script src="js/components/navbar.js"></script>
+    </body>
+</html>
