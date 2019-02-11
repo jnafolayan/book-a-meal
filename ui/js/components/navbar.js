@@ -15,11 +15,16 @@
     dom.query(window)
       .on('scroll', watchScroll);
 
+    // Collapse nav when outside is clicked
+    dom.query(document)
+      .on('click', autoCollapseNav, true);
+
     // Check scroll
     watchScroll();
 
     function toggleNavbar() {
       elCollapse.toggleClass('c-navbar__collapse--collapsed');
+      store.commit('navbarCollapsed', !store.navbarCollapsed);
 
       if (!store.navbarFix)
         elNavbar.toggleClass('c-navbar--fix');
@@ -39,7 +44,20 @@
       }
     }
 
+    function autoCollapseNav({ target }) {
+      if (store.navbarCollapsed) return;
 
+      const navbar = elNavbar.get(0);
+
+      while (target && target !== document) {
+        if (target === navbar) {
+          return;
+        }
+        target = target.parentElement;
+      }
+      
+      toggleNavbar();
+    }
     
   }
 })(window.store);

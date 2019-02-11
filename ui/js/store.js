@@ -2,7 +2,7 @@
 	const rawStore = {
 		state: {
 			navbar: {
-				collapsed: false,
+				collapsed: true,
 				fix: false
 			}
 		},

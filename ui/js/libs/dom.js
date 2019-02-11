@@ -5,13 +5,18 @@ const dom = (() => {
 	}
 
 	function wrapNodes(nodes) {
+		const nodesArr = [...nodes];
+
 		function each(cb) {
-			[...nodes].forEach(cb);
+			nodesArr.forEach(cb);
 		}
 
 		return {
-			on(event, cb) {
-				each(node => node.addEventListener(event, cb, false));
+			get(index) {
+				return nodes[index];
+			},
+			on(event, cb, capture=false) {
+				each(node => node.addEventListener(event, cb, capture));
 				return this;
 			},
 			toggleClass(className) {
