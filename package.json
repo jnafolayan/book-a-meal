@@ -1,0 +1,26 @@
+{
+  "name": "book-a-meal",
+  "version": "1.0.0",
+  "description": "meal booking app for ALCwithforloop programme",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnafolayan/book-a-meal.git"
+  },
+  "keywords": [
+    "meal",
+    "alcwithforloop"
+  ],
+  "author": "John Afolayan <jnafolayan@gmail.com> (jnafolayan.com)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/jnafolayan/book-a-meal/issues"
+  },
+  "homepage": "https://github.com/jnafolayan/book-a-meal#readme"
+}
