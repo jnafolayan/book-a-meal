@@ -34,7 +34,7 @@
 
 .c-variety__meal:hover {
 	box-shadow: var(--shadow-lg);
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 
 .c-variety__meal-image {
